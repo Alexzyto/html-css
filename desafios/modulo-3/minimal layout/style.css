@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+:root {
+    --cor0: #06141B;
+    --cor1: #11212D;
+    --cor2: #253745;
+    --cor3: #4A5C6A;
+    --cor4: #9BA8AB;
+    --cor5: #CCD0CF;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    font-family: var(--fonte2);
+    background-image: url(imagens/montanha\ 2.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    color: aliceblue;
+}
+
+header >p.we {
+    padding-top: 70px;
+}
+
+header >p.design {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+}
+
+header > h1 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 9vw;
+}
+body {
+    background-color: var(--cor5);
+}
+
+main {
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
