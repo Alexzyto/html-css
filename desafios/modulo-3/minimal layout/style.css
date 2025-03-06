@@ -30,16 +30,17 @@ header {
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39) ;
 }
 
-header >p.we {
+header > p.we {
     padding-top: 100px;
+    font-size: 1.5vw;
 }
-header > p {
-    padding-bottom: 20px;
-    font-size: 3vw;
+header > p.ano {
+    padding-bottom: 110px;
+    font-size: 2vw;
 }
 header >p.design {
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 header > h1 {
@@ -47,20 +48,43 @@ header > h1 {
     padding-bottom: 20px;
     font-variant: small-caps;
     font-family: var(--fonte2);
-    font-size: 9vw;
+    font-size: 7vw;
+}
+
+a {
+    text-decoration: none;
+    color: #06141B;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+nav {
+    min-width: 300px;
+    padding: 10px 10px;
+    display: block;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #06141B
 }
 body {
     background-color: var(--cor5);
+    background-color: #b8bec7;
+
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 main {
     background-color: white;
-    min-width: 300px;
-    max-width: 1000px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
 }
