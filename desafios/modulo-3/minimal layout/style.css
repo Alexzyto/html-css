@@ -22,23 +22,29 @@
 header {
     font-family: var(--fonte2);
     background-image: url(imagens/montanha\ 2.jpg);
+    background-position: center center ;
     background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
-    color: aliceblue;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.39) ;
 }
 
 header >p.we {
-    padding-top: 70px;
+    padding-top: 100px;
 }
-
+header > p {
+    padding-bottom: 20px;
+    font-size: 3vw;
+}
 header >p.design {
     font-family: 'Courier New', Courier, monospace;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 header > h1 {
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     font-variant: small-caps;
     font-family: var(--fonte2);
     font-size: 9vw;
