@@ -138,11 +138,12 @@ article.preto {
 }
 
 article.preto > h1 {
-    padding-top: 80px;
-    padding-left: 50px;
+    padding-top: 100px;
+    padding-left: 60px;
     color: aliceblue;
     width: 40%;
     text-align: left;
+    font-size: 30px;
 }
 
 article.preto > p {
@@ -150,10 +151,12 @@ article.preto > p {
     width: 40%;
     text-align: left;
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 60px;
     font-family: var(--fonte5);
-    
+    font-size: 18px;
 }
+
+article.preto >
 body {
     background-color: var(--cor5);
     background-color: #a2adad;
