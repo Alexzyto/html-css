@@ -61,14 +61,31 @@ a {
     transition-duration: 0.4s;
 }
 
-nav {
+nav{
     min-width: 300px;
     padding: 10px 10px;
     display: block;
+    width: 100%;
+    
 }
+
+
 nav a:hover {
     text-decoration: underline;
     color: #06141B
+}
+
+article h2 {
+    font-size: 4vw;
+    padding-top: 70px;
+    min-width: 300px;
+}
+article p {
+    padding-top: 50px;
+    min-width: 18                                        0px;
+    margin: 175px;
+    margin-top: 0px;
+    text-align: center;
 }
 body {
     background-color: var(--cor5);
