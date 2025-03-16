@@ -22,6 +22,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -234,14 +235,14 @@ footer a:hover {
 
 
 body {
-    background-color: var(--cor5);
     background-color: #a2adad;
     min-width: 300px;
     max-width: 1000px;
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    align-items: center;
 }
 
 main {
