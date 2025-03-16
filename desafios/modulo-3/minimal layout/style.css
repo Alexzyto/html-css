@@ -126,8 +126,7 @@ article > picture > img {
     max-width: 375px; /* A imagem não excederá a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
     padding-top: 10px; 
-    padding-left: 40px;
-    padding-right: 40px;
+    
 }
 
 article.preto {
