@@ -40,16 +40,16 @@ header > p.we {
     background-color: ;
     margin-top: 70px;
     padding-top: 100px;
-    font-size: 18px;
+    font-size: 3vw;
     
 }
 header > p.ano {
     padding-bottom: 110px;
-    font-size: 30px;
+    font-size: 4vw
     
 }
 header >p.design {
-    font-size: 20px;
+    font-size: 2.5vw;
     font-family: var(--fonte3);
     padding-bottom: 5px;
     
@@ -59,7 +59,7 @@ header > h1 {
     
     font-variant: small-caps;
     font-family: var(--fonte3);
-    font-size: 90px;
+    font-size: 12vw;
     line-height: 1.2;
 }
 
@@ -72,7 +72,7 @@ nav > a {
 }
 
 nav{
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--fonte4);
     min-width: 300px;
     padding: 10px 10px;
@@ -109,8 +109,9 @@ article.design > h3 > img{
     
 }
 article.design > p {
-    padding-left: 120px ;
-    padding-right: 120px ;
+    max-width: 1000px;
+    padding-left: 70px ;
+    padding-right: 70px ;
     color: #253745;
     font-family: var(--fonte5);
     font-size: 16px;
@@ -126,7 +127,9 @@ article > picture > img {
     
     max-width: 375px; /* A imagem não excederá a largura do contêiner */
     height: auto; /* Mantém a proporção da imagem */
-    padding-top: 10px; 
+    padding-top: 10px;
+    padding-left:10px ;
+    padding-right:10px ;
     
 }
 
@@ -140,7 +143,7 @@ article.preto {
 
 article.preto > h1.esquerda {
     padding-top: 100px;
-    padding-left: 60px;
+    padding-left: 40px;
     color: aliceblue;
     width: 40%;
     text-align: left;
@@ -160,17 +163,16 @@ article.preto > div.conteudo > p.esquerda {
 article.preto > div.conteudo {
     display: flex; /* Usando Flexbox para alinhar os itens */
     align-items: flex-start; /* Alinha os itens no topo */
-    padding-left: 60px; /* Adiciona um pouco de espaço à esquerda */ }
+    padding-left: 40px; /* Adiciona um pouco de espaço à esquerda */ }
 
     article.preto > .conteudo > .imagens {
     display: flex; /* Usando Flexbox para as imagens */
     flex-wrap: wrap; /* Permite que as imagens quebrem para a próxima linha */
-    margin-left: 20px; /* Espaço entre o texto e as imagens */
+    margin-left: 10px; /* Espaço entre o texto e as imagens */
     }
 
     article.preto > div.conteudo > .imagens img {
-        margin: 10px; /* Espaço entre as imagens */
-        width: 150px; /* Largura fixa para as imagens */
+        width: 100px; /* Largura fixa para as imagens */
     }
 
 article.preto > p.fale-conosco{ 
@@ -180,6 +182,7 @@ article.preto > p.fale-conosco{
     font-family: var(--fonte3);
     font-size: 28px;
     text-align: center;
+    margin-top: 60px;
     padding: 2px;
     margin-left: 60px;
     width: 210px;
