@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem doloribus sapiente, incidunt sint quis provident at ipsum consequuntur dolor! Atque molestiae nihil eum dolorem recusandae rerum, non repellendus dolor! Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptas nesciunt aliquid, iste corrupti doloribus ratione commodi, similique et molestiae atque incidunt, cupiditate at deleniti temporibus unde libero doloremque. Impedit?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus id consequuntur sapiente non, tempore dolore expedita ad! Sequi ratione enim praesentium, corrupti deserunt exercitationem iure ducimus ullam rem laborum Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem porro voluptatibus voluptas ducimus voluptates, cumque animi impedit, nam aperiam a beatae tempore dicta temporibus laboriosam nisi cupiditate voluptate quia. </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio temporibus id consequuntur sapiente non, tempore dolore expedita ad! Sequi ratione enim praesentium, corrupti deserunt exercitationem iure ducimus ullam rem laborum Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde rem porro voluptatibus voluptas ducimus voluptates, cumque animi impedit, nam aperiam a beatae tempore dicta temporibus laboriosam nisi cupiditate voluptate quia. </p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
