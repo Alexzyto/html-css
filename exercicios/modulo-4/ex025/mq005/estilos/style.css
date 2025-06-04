@@ -6,7 +6,7 @@
     padding: 0px;
 }
 body, html {
-    background-color: lightgray;
+    background-color: rgb(165, 165, 165);
 }
 
 header {
@@ -29,7 +29,7 @@ i#burguer {
 }
 
 i#burguer:hover {
-    background-color: white;
+    background-color: rgb(196, 196, 196);
     color: black;
 }
 menu {
