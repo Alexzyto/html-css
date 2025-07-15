@@ -5,6 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexible Box</title>
     <style>
+
+        /* PADRAO
+        flex: 0 1 auto
+        flex: initial
+
+        flex: 0 0 auto  ( Nao cresce nem diminue, nada flexivel)
+        flex: none
+
+        flex: 1 1 auto  ( Cresce e diminue, tudo flexivel)
+        flex: auto
+
+        flex: 3 (vale pro grow)
+        flex: 3 1 auto ( 1 auto é padrao)
+        */
         div.container {
             background-color: lightsalmon;
             display: flex;
@@ -19,21 +33,24 @@
         }
 
         div#cxA {
-            flex: 0 1 150px ;
+            flex: 0 1 200px ;
             /* flex-grow: 0;
-            flex-shrink: 1;*/  
+            flex-shrink: 1;
+            flex-basis: 200px; */  
         }
 
         div#cxB {
             flex: 2 1 150px ;
             /* flex-grow: 2;
-            flex-shrink: 1; */ 
+            flex-shrink: 1;
+            flex-basis: 150px; */ 
         }
 
         div#cxC {
-            flex: 4 1 150px ;
+            flex: 4 1 auto ;
             /* flex-grow: 4;
-            flex-shrink: 1;*/ 
+            flex-shrink: 1;
+            flex-basis: auto; */ 
         }
     </style>
 </head>
