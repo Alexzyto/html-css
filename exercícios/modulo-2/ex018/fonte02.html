@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style> 
+        @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+
+        
+        @font-face {
+            font-family: 'SaintCarell';
+            src: url('fonts/SaintCarell_PERSONAL_USE_ONLY.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de Format()
+                -opentype(otf)
+                -truetype(ttf)
+                -embedded-opentype
+                -truetype-aat
+                -svg
+            */
+        }
+
+        body {
+            font-family: 'Asap', Arial, Helvetica, sans-serif
+        }
+
+        h1 {    
+            font-family: 'SaintCarell', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni accusamus porro commodi alias fugiat repudiandae? Quaerat aliquid maiores, amet quam totam, sequi delectus alias, incidunt omnis tenetur temporibus ut voluptatum.</p>
+</body>
+</html>
