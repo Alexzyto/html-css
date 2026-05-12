@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Soma</legend>
+            <p>
+                <label for="soma1">Número 1:</label>
+                <input type="number" name="n1" id="soma1" min="0" max="50" required oninput="isoma.innerHTML = Number(soma1.value) + Number(soma2.value)">
+            </p>
+            <p>
+                <label for="soma2">Número 2:</label>
+                <input type="number" name="n2" id="soma2" min="0" max="50" required oninput="isoma.innerHTML = Number(soma1.value) + Number(soma2.value)">
+            </p>
+            <p>
+                <label for="isoma">Soma:</label>
+                <output name="soma" id="isoma">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Subtração</legend>
+            <p>
+                <label for="sub1">Número 1:</label>
+                <input type="number" name="n1" id="sub1" min="0" max="50" required oninput="isub.innerHTML = Number(sub1.value) - Number(sub2.value)">
+            </p>
+            <p>
+                <label for="sub2">Número 2:</label>
+                <input type="number" name="n2" id="sub2" min="0" max="50" required oninput="isub.innerHTML = Number(sub1.value) - Number(sub2.value)">
+            </p>
+            <p>
+                <label for="isub">Subtração:</label>
+                <output name="sub" id="isub">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Multiplicação</legend>
+            <p>
+                <label for="mul1">Número 1:</label>
+                <input type="number" name="n1" id="mul1" min="0" max="50" required oninput="imul.innerHTML = Number(mul1.value) * Number(mul2.value)">
+            </p>
+            <p>
+                <label for="mul2">Número 2:</label>
+                <input type="number" name="n2" id="mul2" min="0" max="50" required oninput="imul.innerHTML = Number(mul1.value) * Number(mul2.value)">
+            </p>
+            <p>
+                <label for="imul">Multiplicação:</label>
+                <output name="mul" id="imul">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Divisão</legend>
+            <p>
+                <label for="div1">Número 1:</label>
+                <input type="number" name="n1" id="div1" min="0" max="50" required oninput="idiv.innerHTML = Number(div1.value) / Number(div2.value)">
+            </p>
+            <p>
+                <label for="div2">Número 2:</label>
+                <input type="number" name="n2" id="div2" min="0" max="50" required oninput="idiv.innerHTML = Number(div1.value) / Number(div2.value)">
+            </p>
+            <p>
+                <label for="idiv">Divisão:</label>
+                <output name="div" id="idiv">0</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
