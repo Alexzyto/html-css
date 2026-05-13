@@ -13,7 +13,23 @@ Telas Ultra-Wide -> Acima de 1400px
 
 @media print { /* IMPRESSÃO */
     body {
-        background: url(../imagens/back-print.jpg);
+        background: url(../imagens/back-print.jpg); /* DESNECESSÁRIO */
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    main {
+        width: 90vw;
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através do site www.cursoemvideo.com';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
     }
 
     img#phone {display: none;}
