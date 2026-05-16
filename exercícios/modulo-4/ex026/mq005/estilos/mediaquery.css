@@ -13,6 +13,10 @@ Telas Ultra-Wide -> Acima de 1400px
 
 @media (min-width: 768px) {
 
+    main {
+        width: 768px;
+    }
+
     header ul {
         display: flex;
         margin: 10px;
@@ -22,11 +26,13 @@ Telas Ultra-Wide -> Acima de 1400px
 
     header a {
         border-radius: 10px 10px 0px 0px;
-        border-top: 2px solid gray;
     }
 
-    article {
-        max-width: 600px;
-        margin: auto;
+    span#burguer {
+        display: none;
+    }
+
+    #itens {
+        display: block;
     }
 }

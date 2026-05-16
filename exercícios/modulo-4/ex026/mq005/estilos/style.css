@@ -22,7 +22,7 @@ header > h1 {
 }
 
 header  menu {
-    display: block;
+    display: none;
 }
 
 header ul {
@@ -59,4 +59,18 @@ article > p {
     margin-bottom: 20px;
     text-indent: 20px;
     text-align: justify;
+}
+
+#burguer {
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    cursor: pointer;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
 }
