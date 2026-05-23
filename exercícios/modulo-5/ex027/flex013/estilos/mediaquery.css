@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*
+Pequenos Celulares -> 0px até 575px
+Celulares Grandes -> 576px até 767px
+Tablets -> 768px até 991px
+Laptops/Desktops -> 992px até 1199px
+Monitores Grandes -> 1200px até 1399px
+Telas Ultra-Wide -> Acima de 1400px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    header h1 {
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+
+    section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        text-align: left;
+    }
+
+    nav {
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    section {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
