@@ -17,12 +17,6 @@ Telas Ultra-Wide -> Acima de 1400px
     nav {
         flex-direction: row;
     }
-
-    section {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -30,19 +24,17 @@ Telas Ultra-Wide -> Acima de 1400px
     header {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
     }
 
     header h1 {
-        text-align: left;
+        flex: 0 0 200px;
     }
 
-    nav {
-        flex-direction: row;
-        justify-content: end;
-    }
-
-    section {
-        margin-left: 40px;
-        margin-right: 40px;
+    header > nav {
+        flex-flow: row wrap;
+        display: flex;
+        justify-content: flex-end;
     }
 }
